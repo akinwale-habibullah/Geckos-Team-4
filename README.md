@@ -31,27 +31,31 @@ Please go through these pages to learn about our team and this project
 * CSS
 * JavaScript(React)
 * Mocha
-* Express
 * eslint
+* Yarn package manager
+
+## Prerequisite
+
+We assume you have Node and Yarn package manager installed.
 
 ## How to use
 
 * git clone https://github.com/chingu-voyage4/Geckos-Team-4
 * cd Geckos-Team-4
-* npm install
-* npm start
-* Open your browser and visit this url: http://localhost:3000
+* yarn install
+* yarn start
+* Open your browser and visit this url: http://localhost:8080
 
 
 ## Testing
 
-* npm t
+* yarn test
 
 This will test and also verify adherence to style guide. If you only want to verify adherence to style guides without running the test cases, see below.
 
 ### Verify adherence to standards
 
-npm run lint
+yarn lint
     
 
 ## How to contribute
